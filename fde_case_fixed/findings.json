@@ -1,0 +1,94 @@
+{
+  "calls": 20,
+  "logged_outcomes": {
+    "booked": 9,
+    "transferred": 5,
+    "no_action": 4,
+    "callback": 2
+  },
+  "booked_logged": [
+    "C-01",
+    "C-02",
+    "C-03",
+    "C-05",
+    "C-08",
+    "C-09",
+    "C-10",
+    "C-13",
+    "C-18"
+  ],
+  "book_appointment_ok": [
+    "C-01",
+    "C-08",
+    "C-09",
+    "C-18"
+  ],
+  "booked_logged_without_ok_booking": [
+    "C-02",
+    "C-03",
+    "C-05",
+    "C-10",
+    "C-13"
+  ],
+  "booked_logged_with_book_error": [
+    "C-13"
+  ],
+  "fabricated_slot_id": [
+    [
+      "C-13",
+      "S-SUN-0900"
+    ]
+  ],
+  "time_mismatch": [
+    [
+      "C-08",
+      "10:00",
+      "15:30"
+    ],
+    [
+      "C-09",
+      "09:30",
+      "15:00"
+    ]
+  ],
+  "bookings_ok_and_time_correct": [
+    "C-01",
+    "C-18"
+  ],
+  "slots_missing_start_local": [
+    "C-08",
+    "C-09"
+  ],
+  "calls_with_open_job_card": [
+    "C-02",
+    "C-04",
+    "C-07",
+    "C-11",
+    "C-14",
+    "C-16",
+    "C-17",
+    "C-20"
+  ],
+  "get_vehicle_status_calls": [],
+  "transfer_no_answer_no_callback": [
+    "C-02"
+  ],
+  "quoted_price_rupees_no_tool_source": [
+    "C-03",
+    "C-05",
+    "C-08"
+  ],
+  "tool_errors": [
+    [
+      "C-13",
+      "WORKSHOP_CLOSED"
+    ],
+    [
+      "C-15",
+      "UNKNOWN_SERVICE_TYPE"
+    ]
+  ],
+  "avg_duration_sec": 172.6,
+  "avg_duration_mmss": "2:53",
+  "summary_matches_logged_outcomes": true
+}
